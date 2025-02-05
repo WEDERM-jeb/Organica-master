@@ -1,14 +1,14 @@
 version: '3.8'
 services:
   mysql:
-    image: mysql:8.0
+    image: mysql:9.2
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     environment: 
-      MYSQL_ROOT_PASSWORD: wederm8658jeb
-      MYSQL_DATABASE: organica
-      MYSQL_USER: wedermJEB
-      MYSQL_PASSWORD: wederm8658jeb
+      MYSQL_ROOT_PASSWORD: 
+      MYSQL_DATABASE: wederm_mall
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 
 
     volumes:
     - ./init:/docker-entrypoint-initdb.d
@@ -20,9 +20,9 @@ services:
       context: ./server
       dockerfile: Dockerfile
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/organica
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/wederm_mall
       SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: root
+      SPRING_DATASOURCE_PASSWORD: 
     
     ports:
       - 9090:9090

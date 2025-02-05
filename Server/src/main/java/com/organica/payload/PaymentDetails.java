@@ -14,5 +14,5 @@ public class PaymentDetails {
     private Integer amount;
     private String currency;
 
-    private String key;
+    // private String key;
 }
