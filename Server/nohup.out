@@ -1,0 +1,95 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.organica:organica >------------------------
+[INFO] Building organica 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.1.0:run (default-cli) > test-compile @ organica >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ organica ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ organica ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ organica ---
+[INFO] skip non existing resourceDirectory /Users/jinclassic/wederm_mall/shoppingmall_organica/Organica-master/Server/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ organica ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot:3.1.0:run (default-cli) < test-compile @ organica <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.1.0:run (default-cli) @ organica ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m              [2m (v3.1.0)[0;39m
+
+[2m2025-02-10T01:04:14.328+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.organica.OrganicaApplication        [0;39m [2m:[0;39m Starting OrganicaApplication using Java 23.0.1 with PID 84171 (/Users/jinclassic/wederm_mall/shoppingmall_organica/Organica-master/Server/target/classes started by jinclassic in /Users/jinclassic/wederm_mall/shoppingmall_organica/Organica-master/Server)
+[2m2025-02-10T01:04:14.330+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.organica.OrganicaApplication        [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-02-10T01:04:14.356+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2025-02-10T01:04:14.357+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2025-02-10T01:04:14.634+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2025-02-10T01:04:14.665+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+[2m2025-02-10T01:04:14.975+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9090 (http)
+[2m2025-02-10T01:04:14.981+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2025-02-10T01:04:14.981+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2m2025-02-10T01:04:15.013+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2025-02-10T01:04:15.014+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 656 ms
+[2m2025-02-10T01:04:15.072+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2025-02-10T01:04:15.101+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 6.2.2.Final
+[2m2025-02-10T01:04:15.103+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.cfg.Environment           [0;39m [2m:[0;39m HHH000406: Using bytecode reflection optimizer
+[2m2025-02-10T01:04:15.158+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.b.i.BytecodeProviderInitiator       [0;39m [2m:[0;39m HHH000021: Bytecode provider name : bytebuddy
+[2m2025-02-10T01:04:15.214+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2025-02-10T01:04:15.222+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2025-02-10T01:04:15.457+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5acd30e9
+[2m2025-02-10T01:04:15.458+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2025-02-10T01:04:15.503+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.orm.dialect               [0;39m [2m:[0;39m HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 9.2
+[2m2025-02-10T01:04:15.599+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.b.i.BytecodeProviderInitiator       [0;39m [2m:[0;39m HHH000021: Bytecode provider name : bytebuddy
+[2m2025-02-10T01:04:15.924+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: alter table cart modify column total_amount  float(23) not null
+Hibernate: alter table product modify column img  mediumblob
+Hibernate: alter table product modify column price  float(23)
+Hibernate: alter table product modify column weight  float(23)
+Hibernate: alter table user modify column date  datetime(6)
+[2m2025-02-10T01:04:16.029+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-02-10T01:04:16.277+09:00[0;39m [33m WARN[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2025-02-10T01:04:16.400+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@248e93d8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5900e5d7, org.springframework.security.web.context.SecurityContextHolderFilter@6fea96bf, org.springframework.security.web.header.HeaderWriterFilter@4c4f4be, org.springframework.security.web.authentication.logout.LogoutFilter@a05fef7, com.organica.config.JwtAuthenticationFilter@4782153b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@56e3c542, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@eb3f3e5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65075b28, org.springframework.security.web.session.SessionManagementFilter@20478c9f, org.springframework.security.web.access.ExceptionTranslationFilter@4f378d6, org.springframework.security.web.access.intercept.AuthorizationFilter@22bbe90f]
+[2m2025-02-10T01:04:16.470+09:00[0;39m [33m WARN[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m Unable to start LiveReload server
+[2m2025-02-10T01:04:16.480+09:00[0;39m [33m WARN[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[2m2025-02-10T01:04:16.481+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-02-10T01:04:16.482+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+[2m2025-02-10T01:04:16.485+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
+[2m2025-02-10T01:04:16.486+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Stopping service [Tomcat]
+[2m2025-02-10T01:04:16.492+09:00[0;39m [32m INFO[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.b.a.l.ConditionEvaluationReportLogger[0;39m [2m:[0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2m2025-02-10T01:04:16.499+09:00[0;39m [31mERROR[0;39m [35m84171[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.LoggingFailureAnalysisReporter  [0;39m [2m:[0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9090 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9090 or configure this application to listen on another port.
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.400 s
+[INFO] Finished at: 2025-02-10T01:04:16+09:00
+[INFO] ------------------------------------------------------------------------
